@@ -1,0 +1,10 @@
+body {
+    font-family: 'Georgia', serif;
+}
+.navbar-nav .nav-link:hover {
+    color: #d4af37 !important;
+    text-decoration: underline;
+}
+.text-brown {
+    color: #3e2723;
+}
