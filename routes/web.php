@@ -3,6 +3,10 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SiteController; 
 
+Route::get('/books', [SiteController::class, 'index'])->name('books.index');
+Route::post('/books', [SiteController::class, 'store'])->name('books.store');
+Route::delete('/books/{id}', [SiteController::class, 'destroy'])->name('books.destroy');
+
 Route::get('/', [SiteController::class, 'home'])->name('home');
 Route::get('/about', [SiteController::class, 'about']);
 Route::get('/services', [SiteController::class, 'services']);

@@ -6,6 +6,7 @@
                 <li class="nav-item"><a class="nav-link text-white px-4" href="/about">DESPRE NOI</a></li>
                 <li class="nav-item"><a class="nav-link text-white px-4" href="/services">CATALOG CĂRȚI</a></li>
                 <li class="nav-item"><a class="nav-link text-white px-4" href="/contact">CONTACT</a></li>
+                <li class="nav-item"><a class="nav-link text-white px-4" href="{{ route('books.index') }}">Gestionare Cărți</a></li>
             </ul>
         </div>
     </div>
